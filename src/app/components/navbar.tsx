@@ -8,7 +8,7 @@ const Navbar = () => {
         <header className="text-white body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <Link href={""} className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-      <MdOutlineSportsVolleyball className='text-5xl text-indigo-600'/>
+      <MdOutlineSportsVolleyball className='text-5xl text-orange-600'/>
       <span className="ml-2 text-xl">CricBlocks</span>
     </Link>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

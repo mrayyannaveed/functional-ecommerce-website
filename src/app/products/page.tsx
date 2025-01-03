@@ -3,8 +3,7 @@ import ProductCom from '../components/productCom'
 
 const Products = () => {
   return (
-    <div>
-        Products
+    <div className='mt-16'>
         <ProductCom/>
     </div>
   )
