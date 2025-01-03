@@ -16,9 +16,9 @@ const Products = async () => {
     // console.log(data)
   return (
     <div className='mt-16 grid grid-cols-4 gap-10'>
-        {data.map((val:any) => {
+        {data.map((val:any, index:number) => {
             return(
-                <ProductCom title={val.title} price={val.price} image={val.imageUrl} />
+                <ProductCom key={index} title={val.title} price={val.price} image={val.imageUrl}/>
             )
         })}
     </div>
