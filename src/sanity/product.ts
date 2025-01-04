@@ -26,5 +26,15 @@ export const product = {
             type: 'string',
             title: 'Product Rate',
         },
+        {
+            name: 'content',
+            title: 'Content',
+            type: 'array',
+            of: [
+                {
+                type: 'block'
+                },
+            ],
+        },
     ]
 }

@@ -63,5 +63,24 @@ const config: Config = {
   	}
   },
   plugins: [require('daisyui'), require("tailwindcss-animate")],
+  daisyui: {
+    themes: [
+      {
+        myCustomTheme: {
+          "primary": "#570DF8",
+          "secondary": "#F000B8",
+          "accent": "#37CDBE",
+          "neutral": "#3D4451",
+          "base-100": "#FFFFFF", // Ensures the default background is white
+          "info": "#3ABFF8",
+          "success": "#36D399",
+          "warning": "#FBBD23",
+          "error": "#F87272",
+        },
+      },
+    ],
+    // Optionally set the default theme to your custom theme
+    defaultTheme: 'myCustomTheme',
+  },
 };
 export default config;
