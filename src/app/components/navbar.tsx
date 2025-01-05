@@ -16,8 +16,8 @@ const Navbar = () => {
       <Link href={"/about"} className="mr-5 hover:text-slate-500">About</Link>
       <Link href={"/contact"} className="mr-5 hover:text-slate-500">Contact</Link>
     </nav>
-    <Link href={"/cart"}>
-      <div tabIndex={0} role="button" className="pr-2 mt-5 md:mt-0">
+    <Link href={"/cart"} id='icon-cart'>
+      <div tabIndex={0} className="pr-2 mt-5 md:mt-0 cursor-pointer">
         <div className="indicator">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* #listCart::-webkit-scrollbar{
+    width: 0;
+} */
+
+/* @media only screen and (max-width: 767px) {
+    #cart #cartTab{
+        inset: 178px 0 0 auto;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    #cart #cartTab{
+        inset: 88px 0 0 auto;
+    }    
+  }
+
+#cartTab{
+
+} */
+/* #cart{
+    visibility: hidden;
+} */
